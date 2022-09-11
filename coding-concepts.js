@@ -28,7 +28,7 @@ const greeting = "Hello World!"
 console.log(greeting[4])
 
 // a) Your answer: It seems that it will the 4th index of the string "Hello World" which would be "o".
-// b) Verify and explain: It was correct! 
+// b) Verify and explain: It was correct! When looking at the code I know that the square brackets with the number inside are refering to the zero based index and that means I have to count 0,1,2,3,4 and that fourth letter in this case will be the answer.  
 
 
 // --------------------3) What will this log?
@@ -38,7 +38,7 @@ const index = 1
 console.log(languages[index])
 
 // a) Your answer: Based on the zero based index the 1 index is Ruby.
-// b) Verify and explain: It was correct! 
+// b) Verify and explain: It was correct! Zero based index is how to correctly establish what element is being talked about, because the first element in an array is 0 followed by 1,2 and etc. 
 
 
 // --------------------4) What will this log?
@@ -55,5 +55,5 @@ console.log(languages[index])
 const dataTypes = ["number", "string", "Boolean"]
     console.log(typeof dataTypes.length)
 
-// a) Your answer: 
-// b) Verify and explain:
+// a) Your answer: My answer was originally 3, because I did not know what typeof was and the assessment is about what you know and I did not know it. 
+// b) Verify and explain: I did not know what typeof was so I had researched what it was and it returns the attached string, number, boolean, or undefinded varaible. What this means is if you have (typeof 7) the output will be "number". 
